@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vairé Jade – kuratorska platforma turystyczna</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HERO (Twoja grafika z Canvy, NIE ruszamy układu) -->
+  <header class="hero">
+    <!-- Jeśli nadal chcesz używać pełnego SVG jako tła/obrazu, zostaw to <img>. -->
+    <img src="landing.svg" alt="Vairé Jade hero" class="hero-img" />
+
+    <!-- Niewidzialny dostępny przycisk na wierzchu -> przewija do sekcji 'Jak to działa?' -->
+    <a href="#jak-to-dziala" class="cta-floating" aria-label="Przejdź do sekcji Jak to działa">
+      Zobacz, jak to działa
+    </a>
+  </header>
+
+  <!-- O PROJEKCIE -->
+  <section id="o-projekcie" class="section section-light">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <h2>O projekcie</h2>
+          <p>
+            Vairé Jade to kuratorska platforma indywidualnych podróży i doświadczeń dla osób wysoko wrażliwych,
+            neuroatypowych i introwertycznych. Łączymy miejsca, które karmią spokój, relacje i rozwój – w Twoim tempie i na Twoich zasadach.
+          </p>
+        </div>
+        <div class="icon-badge" aria-hidden="true">✔︎</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRZY FILARY -->
+  <section id="filary" class="section section-gradient">
+    <div class="container">
+      <h2 class="center">Trzy filary naszej filozofii</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Spokój</h3>
+          <p>Miejsca wybrane z myślą o regeneracji, harmonii i braku presji.</p>
+        </article>
+
+        <article class="card">
+          <h3>Relacje</h3>
+          <p>Spotkania z ludźmi i kulturą bez pośpiechu, w naturalnym rytmie.</p>
+        </article>
+
+        <article class="card">
+          <h3>Rozwój</h3>
+          <p>Podróże, które inspirują i pomagają odkrywać nowe perspektywy.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- DLA KOGO -->
+  <section id="dla-kogo" class="section section-cream">
+    <div class="container">
+      <h2 class="center">Dla kogo?</h2>
+
+      <div class="tiles">
+        <div class="tile">
+          <h4>Osoby wysoko wrażliwe</h4>
+          <p>Potrzebujące spokoju i czasu na przetworzenie wrażeń.</p>
+        </div>
+        <div class="tile">
+          <h4>Introwertycy</h4>
+          <p>Czerpiący energię z ciszy i autentycznych relacji.</p>
+        </div>
+        <div class="tile">
+          <h4>Osoby neuroatypowe</h4>
+          <p>Ceniące dostosowane tempo i brak presji.</p>
+        </div>
+        <div class="tile">
+          <h4>Freelancerzy</h4>
+          <p>Chcący podróżować w sposób wspierający kreatywność i pracę.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JAK TO DZIAŁA -->
+  <section id="jak-to-dziala" class="section section-gradient soft-top">
+    <div class="container">
+      <h2 class="center">Jak to działa?</h2>
+
+      <ol class="steps">
+        <li>
+          <div class="step-number">1</div>
+          <h3>Wypełniasz formularz</h3>
+          <p>Krótki formularz — imię, e-mail, preferencje.</p>
+        </li>
+        <li>
+          <div class="step-number">2</div>
+          <h3>Otrzymujesz propozycje</h3>
+          <p>PDF z propozycjami z naszej bazy kilku wstępnych ofert.</p>
+        </li>
+        <li>
+          <div class="step-number">3</div>
+          <h3>Ruszysz w podróż</h3>
+          <p>Wybierasz kierunek i podróżujesz — w swoim tempie.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- VAIRÉ JADE TO TAKŻE -->
+  <section id="takze" class="section section-cream">
+    <div class="container">
+      <h2 class="center">Vairé Jade to także…</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Magazyn online</h3>
+          <p>Artykuły o slow travel i podróżach w swoim rytmie.</p>
+        </article>
+        <article class="card">
+          <h3>Przestrzeń wymiany</h3>
+          <p>Społeczność świadomych podróżników.</p>
+        </article>
+        <article class="card">
+          <h3>Narzędzie networkingu</h3>
+          <p>Łączenie podobnie myślących osób i tworzenie relacji.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- DLA PARTNERÓW -->
+  <section id="partnerzy" class="section section-light">
+    <div class="container center">
+      <h2>Dla partnerów</h2>
+      <p class="lead">
+        Współpracujemy z hotelami, lokalnymi przewodnikami i organizatorami warsztatów.
+        Tworzysz przestrzenie lub doświadczenia sprzyjające wrażliwym podróżnikom?
+      </p>
+
+      <!-- MAILTO: – gotowe zgłoszenie -->
+      <a
+        class="btn btn-primary"
+        href="mailto:vairejade.contact@gmail.com?subject=Zg%C5%82oszenie%20partnera%20%E2%80%93%20Vair%C3%A9%20Jade&body=Cze%C5%9B%C4%87%2C%20%0AChc%C4%99%20zg%C5%82osi%C4%87%20wsp%C3%B3%C5%82prac%C4%99%20jako%20partner.%0A%0ANazwa%20firmy%3A%20%0AOferta%20(kr%C3%B3tki%20opis)%3A%20%0ALokalizacja%3A%20%0ALiczba%20os%C3%B3b%20/%20pojemno%C5%9B%C4%87%3A%20%0ALink%20do%20strony%2Fsocial%3A%20%0ADane%20kontaktowe%3A%20%0A%0A%2D%2D%0AEmail%20wys%C5%82any%20z%20landing%20page%20Vair%C3%A9%20Jade."
+      >
+        Zostań partnerem
+      </a>
+
+      <p class="hint">
+        Wolisz formularz? Podmień link powyżej na adres Google Forms / Typeform / Formspree, gdy będziesz mieć finalny URL.
+      </p>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
